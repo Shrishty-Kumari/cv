@@ -1,4 +1,4 @@
-name: CI/CD my first pipeline
+name: CI/CD my first pipeline download
 
 on:
   push:

@@ -21,6 +21,6 @@ jobs:
           echo $PRIVATE_KEY
           ssh -o StrictHostKeyChecking=no -i private_key ${USER_NAME}@${HOSTNAME} '
           
-            cd /var/www/html/shritest &&
+            cd /var/www/html/cv &&
             git config --global --add safe.directory /var/www/html/cv &&
             git pull origin master '
